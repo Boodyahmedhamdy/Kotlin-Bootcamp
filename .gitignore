@@ -1,0 +1,11 @@
+# folder used by intillj idea
+*/.idea/
+
+# binary code to run
+*/out/
+
+# test folder in src code folder
+*/src/test
+
+# .iml file in each project folder
+*/*.iml
