@@ -32,9 +32,7 @@ fun main() {
 
     // if anything on left of ' ?: ' is null return value on right side
     var n1: Int = s1?.length ?: -1
-    println(n1)
+    println("$n1 because s1 == $s1")
 
-
-
-
+    
 }
