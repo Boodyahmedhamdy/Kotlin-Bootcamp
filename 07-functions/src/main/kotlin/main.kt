@@ -21,7 +21,9 @@ fun main() {
     sayHi()
 
 
-    
+    separate("function with parameters")
+    sayHelloTo(name = "boody")
+    sayHelloTo("ahmed")
 
 
 }
@@ -62,3 +64,14 @@ fun parent(){
 
 // single line function
 fun sayHi() = println("Hi")
+
+// function with parameters
+fun sayHelloTo(name: String) {
+    println("hello, ${name.uppercase()}")
+}
+
+
+
+
+
+
