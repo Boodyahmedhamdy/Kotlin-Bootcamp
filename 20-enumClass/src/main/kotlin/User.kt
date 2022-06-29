@@ -1,4 +1,5 @@
-class User(var name: String = "name", var accountType: AccountType = AccountType.BRONZE) {
+class User(var name: String = "name",
+           var accountType: AccountType = AccountType.BRONZE) {
 
     constructor(name: String): this(name, AccountType.BRONZE) {}
 
