@@ -9,7 +9,7 @@ fun main() {
         }
         // must be provided when returning a value from when block
         else -> {
-            println("normal day")
+            println("normal day ${day.number}")
         }
     }
 
