@@ -1,0 +1,5 @@
+package people
+
+class Manager() {
+
+}
