@@ -11,7 +11,24 @@ fun main() {
     val ages: List<Int> = listOf(13, 55, 24, 21, 4, 64)
     val filterdAges = ages.filter {isAdult(it)}
     println(filterdAges)
+
+
+    separate("filter not")
+    println(list.filterNot { it.startsWith('h') })
+
     
+    separate("filter to")
+    // list of names will attend event
+    var approvedList: MutableList<String> = mutableListOf("koky", "koka")
+
+    // add elements from filter to the passed list
+    list.filterTo(approvedList, {it.contains('h')})
+    println(approvedList)
+
+    separate("filter not to")
+    var notApprovedList: MutableList<String> = mutableListOf<String>("koky", "koka")
+    list.filterNotTo(notApprovedList, {it.contains('h')})
+    println(notApprovedList)
 
 }
 
